@@ -1,0 +1,16 @@
+ 1020  rm -r .git
+ 1021  rm -rf .git
+ 1022  ls
+ 1023  cd edgeone-test
+ 1024  git log
+ 1025  git init
+ 1026  git add .
+ 1027  git commit -m "backup working code"
+ 1028  git log
+ 1029  git branch
+ 1030  git remote set-url origin https://punk1573@github.com/punk1573/simple_nuxt
+ 1031  git remote set-url origin https://github.com/punk1573/simple_nuxt.git
+ 1032  git remote add origin https://github.com/punk1573/simple_nuxt.git
+ 1033  git branch -M main
+ 1034  git push -u origin main
+ 1035  history
