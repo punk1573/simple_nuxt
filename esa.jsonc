@@ -1,0 +1,10 @@
+// esa.jsonc
+{
+	"build": {
+		// Nuxt 3 的静态资源输出目录
+		"assets": ".output/public",
+		// Nuxt 3 的服务端函数入口文件
+		"function": ".output/server/index.mjs" 
+	}
+}
+
