@@ -6,9 +6,7 @@ export default defineNuxtConfig({
   nitro: {
 	// 明确告知 Nitro，这些模块是 Node.js 环境提供的，不要打包
 	externals: {
-	  externals: {
-	    external: [/^node:.*/]
-	  }
+	  external: [/^node:.*/]
 	}
   }
 })
